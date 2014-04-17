@@ -1,4 +1,3 @@
-
 //Logo randomiser 1.0
 //by Kyle Mcaslan 17/04/14
 //for use under the Creative Commons Attribution-ShareAlike 4.0 International Public License
@@ -47,12 +46,12 @@ void setup() {
   //begin counting milliseconds from start of program
   lastTime = millis();
   //define your SVG's. They need to be stored in the programs data folder - cmd K
-  s = loadShape("bob1.svg");
-  d = loadShape("bob2.svg");
-  f = loadShape("bob3.svg");
-  g = loadShape("bob4.svg");
-  h = loadShape("bob5.svg");
-  j = loadShape("bob6.svg");
+  s = loadShape("file1.svg");
+  d = loadShape("file2.svg");
+  f = loadShape("file3.svg");
+  g = loadShape("file4.svg");
+  h = loadShape("file5.svg");
+  j = loadShape("flie6.svg");
   //pick the scale for your random numbers
   val1 = 300;
   val2 = 500;
